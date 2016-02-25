@@ -7,7 +7,7 @@ clickID[3] = "#Apply";
 
 var ccsSet = new Array(5);
 
-ccsSet[0] = "disablebdAd.css";
+ccsSet[0] = "black.css";
 ccsSet[1] = "green.css";
 ccsSet[2] = "disableBd_AD.css";
 ccsSet[3] = localStorage['UserTheme'];
@@ -34,46 +34,39 @@ function Main(){
 	self.init = function(){
 		
 		$(document).ready(function () {
+
 		     $(clickID[0]).click(function () {
 		          self.radioClick();
 		      });
-		 });
-		$(document).ready(function () {
+
 		     $(clickID[1]).click(function () {
 		          self.radioClick();
 		      });
-		 });
-		$(document).ready(function () {
+
 		     $(clickID[2]).click(function () {
 		          self.radioClick();
 		          self.sendMessage({state:"reload"});
 		          parent.window.location.reload();
 		          
-		      });
-		 });
+		      });	
 
-		$(document).ready(function () {
 		     $(clickID[3]).click(function () {
 		     	self.Apply();
-		      });
-		 });	
+		      });	 
 
-		$(document).ready(function () {
 		     $("#colorinput").click(function () {
 		        console.log("colorinput click!");
 		        document.getElementById("colordiv").style.height="150px";
 		        document.getElementById("colordiv").style.width="230px";
-		      });
-		 });
+		      });    
 
-
-		$(document).ready(function () {
 		     $("#colorinput").blur(function () {
 		        document.getElementById("colordiv").style.height="30px";
 		        document.getElementById("colordiv").style.width="150px";
 		      });
-		 });			
 
+		 });
+		
 
 		self.run();
 
