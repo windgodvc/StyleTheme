@@ -1,0 +1,43 @@
+{ 
+   "name": "DisablebdAd", 
+   "version": "1.0", 
+   "manifest_version": 2,
+   "homepage_url": "http://blog.csdn.net/u012580994",
+    "permissions": [
+    	"<all_urls>",
+    	"http://*/*",
+  		"https://*/*",
+    	"tabs",
+  		"storage"
+	],   
+	"background": {
+    "scripts": ["background.js"],
+     "persistent": true
+
+  	},
+    "content_scripts": [ { 
+      "matches": [ "<all_urls>","http://*/*","https://*/*"], // 	*://www.baidu.com/*
+      "css": ["disableBd_AD.css"],//,
+      "js":["contentmain.js","jquery-2.2.1.min.js"],
+      "run_at": "document_start",
+       "all_frames": true
+   } ] ,
+   "icons": { 
+   	"128": "theme_128.png" 
+   },
+   "browser_action": {
+      "default_icon": {                    
+            "64": "theme_64px.png"
+
+       },
+       "default_title": "DisablebdAd"  ,
+       "default_popup": "popup.html" 
+   },
+   "web_accessible_resources": [
+       "dark_embroidery.png",
+       "congruent_pentagon.png",
+       "black.css",
+       "green.css",
+       "disableBd_AD.css"
+     ]
+}

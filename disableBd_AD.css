@@ -1,0 +1,29 @@
+div.cr-offset {
+    display: none;
+}
+
+div.rrecom-container {
+    display: none;
+}
+span.pc {
+    background: rgba(0,0,0,0.0)!important;
+    border: 0px ;
+}
+#rs {
+    background: rgba(0,0,0,0.0)!important;
+}
+
+/*字体阴影*/
+/**{text-shadow:0.01em 0.01em 0.1em #999999 !important;}*/
+
+/*全局雅黑字体*/
+/**{font-family:Microsoft YaHei,"微软雅黑",宋体,Courier New !important;}*/
+
+/*去除链接下划线*/
+a{text-decoration:none !important}
+
+/*淡蓝色文字效果*/
+
+a{-webkit-transition: all 0.3s ease-out;}
+a:hover{color: #39F  !important;text-shadow:-5px 3px 18px #39F !important;-webkit-transition: all 0.3s ease-out;}
+*::-webkit-selection {background: #333333 !important; color: #00FF00 !important; }

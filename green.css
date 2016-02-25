@@ -1,0 +1,98 @@
+
+div.cr-offset {
+    display: none;
+}
+
+div.rrecom-container {
+    display: none;
+}
+ {
+    text-shadow: 0.05em 0.05em 0.2em #999999 ;
+}
+
+#page {
+}
+
+#rs {
+    /*只透明背景不透明文字*/
+    background: rgba(0,0,0,0.0)!important;
+}
+
+a:active {
+    background: #00EE00;
+    color: #FF0000;
+}
+
+a:hover {
+    background: #0080FF;
+    color: #990033;
+}
+
+/* 链接标题颜色*/
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #0080FF;
+}
+
+
+
+#page a {
+    background: rgba(0,0,0,0.0)!important;
+}
+
+i.c-icon.c-icon-bear-pn {
+    background: rgba(0,0,0,0.0)!important;
+}
+
+span.fk {
+    background: rgba(0,0,0,0.0)!important;
+}
+
+i.c-icon.c-icon-bear-p {
+    background: rgba(0,0,0,0.0)!important;
+}
+
+#page strong {
+    background: rgba(0,0,0,0.0)!important;
+}
+
+span.pc {
+    background: rgba(0,0,0,0.0)!important;
+    border: 0px ;
+}
+
+a.n {
+    background-color: #CCE8CF;
+    border: 0px ;
+}
+
+/*内容颜色*/
+
+div.op_fanyi {
+    color: #000000;
+}
+
+div.s_tab {
+    color: #000000;
+}
+
+div.m {
+    color: #000000;
+}
+
+div.c-abstract {
+    color: #000000;
+}
+
+a.c-btn.c-btn-mini {
+    color: #000000;
+}
+#content_left{
+    color: #000000!important;
+}
+
+html, body {background-image: url('chrome-extension://__MSG_@@extension_id__/congruent_pentagon.png')!important;}

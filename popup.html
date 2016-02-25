@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery-2.2.1.min.js"></script>
+	<script  src="jscolor.js"></script>
+
+	<div style="width:150px; "><label><input name="Theme" id = "themem0" type="radio" value="black.css"   />黑色皮肤-只适用百度</label> </div>
+	<div style="width:150px; "><label><input name="Theme" id = "themem1" type="radio" value="green.css"  />护眼皮肤-只适用百度</label> </div>
+	<div style="width:150px; "><label><input name="Theme" id = "themem2" type="radio" value="disableBd_AD.css"  />启用禁用广告和自定义</label> </div>
+	</br>
+	<div><label>自定义皮肤全局使用</label> 
+	<input name="text" id = "text" type="text" size="30" /><br />
+	</div>
+	<br />
+	<input type="checkbox" name="enable" value="" id = "enable" />启用此区
+	<br />
+	<div style="width:150px; height:30px; " id = "colordiv">
+		字体全局颜色<input type="checkbox" name="enablecolro" value="" id = "enablecolro" />启用颜色<br />
+		<input class="jscolor" value="000000" id = "colorinput" name = "colorinput" size="30">
+	</div>
+	<br />
+	<div>
+		<label>字体全局</label>&nbsp;&nbsp;
+		<select id = "fontSelect" name = "fontSelect" style="width:115px;">
+		  <option value ="Arial">Arial</option>
+		  <option value ="Microsoft YaHei">微软雅黑</option>
+		  <option value ="宋体">宋体</option>
+		</select>
+	</div>
+	<br />
+	<label>自定义CSS样式</label> 
+	<textarea name="UserCss" id = "UserCss" cols="25" rows="4"></textarea>
+	</br>
+	<div div style="text-align: right;"><input name="Apply" id = "Apply" type="submit" value="Apply" /> </div>
+
+	
+	<script type="text/javascript" src="switchTheme.js"></script>
+
+
+<!-- div.container_l {
+    color: #000000;
+}
+ -->
+
+</head>
+<body>
+
+</body>
+</html>
+
+
