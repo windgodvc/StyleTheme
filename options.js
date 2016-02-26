@@ -24,7 +24,8 @@ function OperationData(){
 		self.generate("UserTheme",localStorage['UserTheme']) + "," + 
 		self.generate("ColorValue",localStorage['localStorage']) + "," + 
 		self.generate("UserFont",localStorage['UserFont']) + "," + 
-		self.generate("UserCSS",localStorage['UserCSS']) + "}"
+		self.generate("UserCSS",localStorage['UserCSS']) + "," + 
+		self.generate("enable",localStorage['enable']) + "}"
 		;
 		document.getElementById("Config").value = result;
 		var btn = document.getElementById('copy');
@@ -56,6 +57,7 @@ function OperationData(){
 		localStorage['ColorValue'] = obj.ColorValue;
 		localStorage['UserFont'] = obj.UserFont;
 		localStorage['UserCSS'] = obj.UserCSS;
+		localStorage['enable'] = obj.enable;
 		//console.log(obj);
 		alert("导入成功!");
 	};
