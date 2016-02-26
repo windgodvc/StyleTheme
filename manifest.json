@@ -1,5 +1,5 @@
 { 
-   "name": "DisablebdAd", 
+   "name": "StyleTheme", 
    "version": "1.0", 
    "manifest_version": 2,
    "homepage_url": "http://blog.csdn.net/u012580994",
@@ -30,7 +30,7 @@
             "64": "theme_64px.png"
 
        },
-       "default_title": "DisablebdAd"  ,
+       "default_title": "StyleTheme"  ,
        "default_popup": "popup.html" 
    },
    "options_page": "options.html",
