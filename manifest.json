@@ -33,6 +33,7 @@
        "default_title": "DisablebdAd"  ,
        "default_popup": "popup.html" 
    },
+   "options_page": "options.html",
    "web_accessible_resources": [
        "dark_embroidery.png",
        "congruent_pentagon.png",
